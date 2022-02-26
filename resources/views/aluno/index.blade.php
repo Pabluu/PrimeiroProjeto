@@ -16,7 +16,7 @@
         }
 
         table{
-            border: 1px solid;
+            border-collapse: collapse;
         }
 
     </style>

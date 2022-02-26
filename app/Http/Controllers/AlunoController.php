@@ -5,8 +5,7 @@ namespace App\Http\Controllers;
     use Illuminate\Http\Request;
     use App\Models\Aluno;
 
-class AlunoController extends Controller
-{
+class AlunoController extends Controller{
     public function index(){
         $aluno = new Aluno();
         $alunos = Aluno::All();
